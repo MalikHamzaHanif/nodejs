@@ -46,7 +46,7 @@ const users = [
     },
     {
       id: 6,
-      name: "Zainab Iqbal",
+      name: "Aainab Iqbal",
       age: 24,
       phoneNumber: "+92 366 6789012",
       email: "zainab.iqbal@example.com",
@@ -55,7 +55,7 @@ const users = [
     },
     {
       id: 7,
-      name: "Usman Raza",
+      name: "Asman Raza",
       age: 29,
       phoneNumber: "+92 377 7890123",
       email: "usman.raza@example.com",
