@@ -22,7 +22,7 @@ app.get("/api/v1/user/:userId", (req, res) => {
     const userId = req.params.userId
     let user = users.find((u) => u.id == userId);
     if (user) {
-        res.status(200).json({ ...user, name, id })
+        res.status(200).json({ ...user })
 
     } else {
         res.status(404).json("not found")
