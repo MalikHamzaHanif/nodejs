@@ -1,0 +1,178 @@
+/* ======= Global Styles ======= */
+body,
+ul,
+li,
+h1,
+label,
+input,
+button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* ======= Navigation Bar ======= */
+#nav-bar {
+    background-color: #2C3E50;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#nav-bar h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+#nav-bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+#nav-bar ul li {
+    display: inline;
+}
+
+#nav-bar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    transition: background 0.3s;
+    border-radius: 5px;
+}
+
+#nav-bar ul li a:hover {
+    background-color: #34495E;
+}
+
+/* ======= Form Section ======= */
+#user-form {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+#user-form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+#user-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#user-form input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+#user-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* ======= User List ======= */
+#all-users {
+    margin-top: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.ind-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.ind-user li {
+    list-style: none;
+    margin-left: 5px;
+}
+
+.ind-user:last-child {
+    border-bottom: none;
+}
+
+
+
+.my-click-btn {
+    padding: 2px 6px;
+    margin-left: 5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    animation: colorChange 0.1s infinite alternate ease-in-out;
+}
+
+/* Button hover effect */
+.my-click-btn:hover {
+    transform: scale(1.1);
+    /* Slightly increases size */
+}
+
+/* Color Changing Animation */
+@keyframes colorChange {
+    0% {
+        background-color: #ff4d4d;
+        color: white;
+    }
+
+    /* Red */
+    50% {
+        background-color: #4da6ff;
+        color: white;
+    }
+
+    /* Blue */
+    100% {
+        background-color: #47d147;
+        color: white;
+    }
+
+    /* Green */
+}

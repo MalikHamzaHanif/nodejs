@@ -1,0 +1,158 @@
+/* ======= Global Styles ======= */
+body,
+ul,
+li,
+h1,
+label,
+input,
+button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* ======= Navigation Bar ======= */
+#nav-bar {
+    background-color: #2C3E50;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#nav-bar h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+#nav-bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+#nav-bar ul li {
+    display: inline;
+}
+
+#nav-bar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    transition: background 0.3s;
+    border-radius: 5px;
+}
+
+#nav-bar ul li a:hover {
+    background-color: #34495E;
+}
+
+/* ======= User Info Section ======= */
+#user-info {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+#user-name-info,
+#user-id-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#user-name-info:last-child,
+#user-id-info:last-child {
+    border-bottom: none;
+}
+
+#user-name-info h1,
+#user-id-info h1 {
+    font-size: 18px;
+    color: #333;
+}
+
+/* ======= Form Section ======= */
+#user-form {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+#user-form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+#user-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#user-form input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+#user-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* ======= Delete Button ======= */
+#single-user-edit {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#single-user-edit button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+#single-user-edit button:hover {
+    background-color: #cc0000;
+}
