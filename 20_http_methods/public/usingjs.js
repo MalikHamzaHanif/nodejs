@@ -48,10 +48,10 @@ getUsers()
 document.getElementById("submit-btn").onclick = () => {
     const userName = document.getElementById('username').value
     const userid = document.getElementById('userid').value
-if(!userName || !userid){
-  alert("Name or Id can not be empty 1")
-  return;
-}
+    if (!userName || !userid) {
+        alert("Name or Id can not be empty 1")
+        return;
+    }
     fetch("http://localhost:5000/api/v1/user", {
         method: "POST",
         body: JSON.stringify({
@@ -64,7 +64,7 @@ if(!userName || !userid){
     }).then((data) => {
         return data.json()
     }).then((data) => {
-            getUsers();
+        getUsers();
     }).catch((e) => {
         alert(e)
     }
