@@ -1,0 +1,332 @@
+[
+    {
+      "name": "Desk",
+      "price": 99.99,
+      "featured": true,
+      "rating": 4.2,
+      "createdAt": "2023-01-01T12:00:00Z",
+      "company": "ikea"
+    },
+    {
+      "name": "Chair",
+      "price": 49.99,
+      "featured": false,
+      "rating": 3.8,
+      "createdAt": "2023-01-02T14:30:00Z",
+      "company": "liddy"
+    },
+    {
+      "name": "Sofa",
+      "price": 299.99,
+      "featured": true,
+      "rating": 4.5,
+      "createdAt": "2023-01-03T11:45:00Z",
+      "company": "caressa"
+    },
+    {
+      "name": "Table",
+      "price": 79.99,
+      "featured": false,
+      "rating": 4.0,
+      "createdAt": "2023-01-04T09:15:00Z",
+      "company": "marcos"
+    },
+    {
+      "name": "Bookshelf",
+      "price": 129.99,
+      "featured": true,
+      "rating": 4.8,
+      "createdAt": "2023-01-05T16:20:00Z",
+      "company": "ikea"
+    },
+    {
+      "name": "Lamp",
+      "price": 19.99,
+      "featured": false,
+      "rating": 3.5,
+      "createdAt": "2023-01-06T08:30:00Z",
+      "company": "liddy"
+    },
+    {
+      "name": "Couch",
+      "price": 249.99,
+      "featured": true,
+      "rating": 4.3,
+      "createdAt": "2023-01-07T13:10:00Z",
+      "company": "caressa"
+    },
+    {
+      "name": "Dining Table",
+      "price": 159.99,
+      "featured": false,
+      "rating": 4.2,
+      "createdAt": "2023-01-08T10:45:00Z",
+      "company": "marcos"
+    },
+    {
+      "name": "Coffee Table",
+      "price": 69.99,
+      "featured": true,
+      "rating": 4.6,
+      "createdAt": "2023-01-09T17:15:00Z",
+      "company": "ikea"
+    },
+    {
+      "name": "Shelf",
+      "price": 89.99,
+      "featured": false,
+      "rating": 3.9,
+      "createdAt": "2023-01-10T11:20:00Z",
+      "company": "liddy"
+    },
+    {
+      "name": "Wardrobe",
+      "price": 199.99,
+      "featured": true,
+      "rating": 4.7,
+      "createdAt": "2023-01-11T14:50:00Z",
+      "company": "caressa"
+    },
+    {
+      "name": "Side Table",
+      "price": 29.99,
+      "featured": false,
+      "rating": 3.7,
+      "createdAt": "2023-01-12T09:40:00Z",
+      "company": "marcos"
+    },
+    {
+      "name": "Mirror",
+      "price": 49.99,
+      "featured": true,
+      "rating": 4.1,
+      "createdAt": "2023-01-13T16:05:00Z",
+      "company": "ikea"
+    },
+    {
+      "name": "Bed",
+      "price": 349.99,
+      "featured": false,
+      "rating": 3.8,
+      "createdAt": "2023-01-14T08:55:00Z",
+      "company": "liddy"
+    },
+    {
+      "name": "Dresser",
+      "price": 129.99,
+      "featured": true,
+      "rating": 4.5,
+      "createdAt": "2023-01-15T12:30:00Z",
+      "company": "caressa"
+    },
+    {
+      "name": "Rug",
+      "price": 39.99,
+      "featured": false,
+      "rating": 3.6,
+      "createdAt": "2023-01-16T10:00:00Z",
+      "company": "marcos"
+    },
+    {
+      "name": "Plant Stand",
+      "price": 24.99,
+      "featured": true,
+      "rating": 4.0,
+      "createdAt": "2023-01-17T15:25:00Z",
+      "company": "ikea"
+    },
+    {
+      "name": "End Table",
+      "price": 34.99,
+      "featured": false,
+      "rating": 3.9,
+      "createdAt": "2023-01-18T11:10:00Z",
+      "company": "liddy"
+    },
+    {
+      "name": "Cabinet",
+      "price": 149.99,
+      "featured": true,
+      "rating": 4.6,
+      "createdAt": "2023-01-19T14:40:00Z",
+      "company": "caressa"
+    },
+    {
+      "name": "Bench",
+      "price": 59.99,
+      "featured": false,
+      "rating": 3.7,
+      "createdAt": "2023-01-20T09:30:00Z",
+      "company": "marcos"
+    },
+    {
+      "name": "Coat Rack",
+      "price": 19.99,
+      "featured": true,
+      "rating": 4.2,
+      "createdAt": "2023-01-21T16:15:00Z",
+      "company": "ikea"
+    },
+    {
+      "name": "Nightstand",
+      "price": 49.99,
+      "featured": false,
+      "rating": 3.8,
+      "createdAt": "2023-01-22T08:45:00Z",
+      "company": "liddy"
+    },
+    {
+      "name": "Shoe Rack",
+      "price": 29.99,
+      "featured": true,
+      "rating": 4.3,
+      "createdAt": "2023-01-23T13:20:00Z",
+      "company": "caressa"
+    },
+    {
+      "name": "Chaise Lounge",
+      "price": 199.99,
+      "featured": false,
+      "rating": 3.9,
+      "createdAt": "2023-01-24T10:05:00Z",
+      "company": "marcos"
+  
+  
+    },
+    {
+      "name": "Filing Cabinet",
+      "price": 79.99,
+      "featured": true,
+      "rating": 4.7,
+      "createdAt": "2023-01-25T15:35:00Z",
+      "company": "ikea"
+    },
+    {
+      "name": "Sideboard",
+      "price": 129.99,
+      "featured": false,
+      "rating": 3.5,
+      "createdAt": "2023-01-26T11:25:00Z",
+      "company": "liddy"
+    },
+    {
+      "name": "Media Console",
+      "price": 149.99,
+      "featured": true,
+      "rating": 4.5,
+      "createdAt": "2023-01-27T16:50:00Z",
+      "company": "caressa"
+    },
+    {
+      "name": "Console Table",
+      "price": 59.99,
+      "featured": false,
+      "rating": 3.6,
+      "createdAt": "2023-01-28T09:40:00Z",
+      "company": "marcos"
+    },
+    {
+      "name": "Armchair",
+      "price": 119.99,
+      "featured": true,
+      "rating": 4.1,
+      "createdAt": "2023-01-29T14:15:00Z",
+      "company": "ikea"
+    },
+    {
+      "name": "Vanity",
+      "price": 89.99,
+      "featured": false,
+      "rating": 3.8,
+      "createdAt": "2023-01-30T08:55:00Z",
+      "company": "liddy"
+    },
+    {
+      "name": "Bar Stool",
+      "price": 39.99,
+      "featured": true,
+      "rating": 4.4,
+      "createdAt": "2023-01-31T15:30:00Z",
+      "company": "caressa"
+    },
+    {
+      "name": "Bathroom Shelf",
+      "price": 29.99,
+      "featured": false,
+      "rating": 3.7,
+      "createdAt": "2023-02-01T10:20:00Z",
+      "company": "marcos"
+    },
+    {
+      "name": "Computer Desk",
+      "price": 79.99,
+      "featured": true,
+      "rating": 4.0,
+      "createdAt": "2023-02-02T14:45:00Z",
+      "company": "ikea"
+    },
+    {
+      "name": "File Cabinet",
+      "price": 49.99,
+      "featured": false,
+      "rating": 3.9,
+      "createdAt": "2023-02-03T09:35:00Z",
+      "company": "liddy"
+    },
+    {
+      "name": "Wall Shelf",
+      "price": 19.99,
+      "featured": true,
+      "rating": 4.3,
+      "createdAt": "2023-02-04T15:00:00Z",
+      "company": "caressa"
+    },
+    {
+      "name": "Rocking Chair",
+      "price": 109.99,
+      "featured": false,
+      "rating": 3.6,
+      "createdAt": "2023-02-05T11:50:00Z",
+      "company": "marcos"
+    },
+    {
+      "name": "Accent Table",
+      "price": 29.99,
+      "featured": true,
+      "rating": 4.2,
+      "createdAt": "2023-02-06T16:25:00Z",
+      "company": "ikea"
+    },
+    {
+      "name": "Storage Bench",
+      "price": 69.99,
+      "featured": false,
+      "rating": 3.8,
+      "createdAt": "2023-02-07T08:55:00Z",
+      "company": "liddy"
+    },
+    {
+      "name": "Hanging Shelf",
+      "price": 24.99,
+      "featured": true,
+      "rating": 4.5,
+      "createdAt": "2023-02-08T14:20:00Z",
+      "company": "caressa"
+    },
+    {
+      "name": "Lounge Chair",
+      "price": 149.99,
+      "featured": false,
+      "rating": 3.9,
+      "createdAt": "2023-02-09T10:10:00Z",
+      "company": "marcos"
+    },
+    {
+      "name": "Bar Cabinet",
+      "price": 119.99,
+      "featured": true,
+      "rating": 4.7,
+      "createdAt": "2023-02-10T15:40:00Z",
+      "company": "ikea"
+    }
+  ]
