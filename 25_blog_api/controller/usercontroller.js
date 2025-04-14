@@ -27,6 +27,27 @@ const registerUser = asyncWrapper(async (req, res) => {
     }
 
 })
+const updateUser = asyncWrapper(async (req, res) => {
+    const { email, name } = req.body
+    const user = await userSchema.findOne({ _id: req.user.userId });
+    user.name = name;
+    user.email = email;
+    await user.save()
+
+    const token = user.generateToken();
+
+    return res.status(StatusCodes.OK).json({
+        success: true, data: {
+            msg: "User updated successfully!",
+            data: {
+                name: user.name,
+                email: user.email,
+                userId: user._id,
+                token: token
+            }
+        }
+    })
+})
 
 const loginUser = asyncWrapper(async (req, res) => {
     const { email, password } = req.body
@@ -53,7 +74,7 @@ const loginUser = asyncWrapper(async (req, res) => {
             data: {
                 name: user.name,
                 email: user.email,
-                userId:user._id,
+                userId: user._id,
                 token: token
             }
         }
@@ -88,4 +109,4 @@ const getUserData = asyncWrapper(async (req, res) => {
 
 })
 
-module.exports = { registerUser, loginUser, getUserData }
+module.exports = { registerUser, loginUser, getUserData, updateUser }
