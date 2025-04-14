@@ -3,7 +3,7 @@ const cloudinary = require("cloudinary").v2;
 const BadRequest = require("../error/badrequest");
 const product = require("../model/productModel");
 const { INTERNAL_SERVER_ERROR } = require("../error/error");
-
+const fs = require("fs")
 cloudinary.config({
     cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
     api_key: process.env.CLOUDINARY_API_KEY,
@@ -23,7 +23,7 @@ const uploadProduct = asyncWrapper(async (req, res, next) => {
         use_filename: true,
         folder: "upload-file"
     });
-
+    fs.unlinkSync(img.tempFilePath)
     req.image = {
 
         imageurl: imageUrl.secure_url,
@@ -42,7 +42,7 @@ const destroyProduct = asyncWrapper(async (req, res, next) => {
     const { publicid } = data
     const { result } = await cloudinary.uploader.destroy(publicid)
     if (result === "ok") {
-        req.data=data
+        req.data = data
         next()
     } else {
         throw new INTERNAL_SERVER_ERROR("File Deletion failed");
